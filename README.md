@@ -1,2 +1,72 @@
-# Source-Data_Toward-observing-interstitial-hydrogen-in-solution-in-cubic-metal-lattices
-Source Data of paper named "Toward observing interstitial hydrogen in solution in cubic metal lattices"
+# Source Data – Toward observing interstitial hydrogen in solution in cubic metal lattices
+
+This repository contains the source data associated with the manuscript:
+
+**“Toward observing interstitial hydrogen in solution in cubic metal lattices”**
+
+The data are organized according to the corresponding figures in the main text and Extended Data.
+
+## Data included
+
+The repository contains source data associated with **Figs. 1–4** and the relevant **Extended Data Figures**.
+
+For atom probe tomography (APT) datasets, the deposited files include, where applicable:
+
+- **`.apt` files** – reconstructed APT datasets containing the three-dimensional ion data.
+- **`.RHIT` files** – ranged hit data exported from AP Suite.
+- **`.RRNG` files** – corresponding ion-ranging definitions used for the APT analysis.
+- **`.csv` files** – numerical source data used to generate the corresponding plots and quantitative analyses in the manuscript. These files can also be opened directly in Microsoft Excel.
+
+Depending on the analysis presented in each figure, the CSV source data include:
+
+- bulk composition analysis;
+- first-nearest-neighbour (NN1) distributions;
+- fifth-nearest-neighbour (NN5) distributions;
+- one-dimensional concentration profiles;
+- proximity histograms (proxigrams);
+- elemental concentration profiles across selected regions of interest; and
+- other quantitative data used to generate the corresponding panels.
+
+For example, the APT datasets associated with the precipitate-containing specimens include the original `.apt`, `.RHIT`, and `.RRNG` files together with the corresponding bulk-composition, one-dimensional concentration-profile, and proxigram data.
+
+## Repository structure
+
+The source data are arranged in folders according to their corresponding display items, including:
+
+- `Fig. 1`
+- `Fig. 2`
+- `Fig. 3`
+- `Fig. 4`
+- `Extended Data Fig. 1`
+- `Extended Data Fig. 3`
+- `Extended Data Fig. 4`
+- `Extended Data Fig. 8`
+- `Extended Data Fig. 9`
+- and other supplementary source-data folders where applicable.
+
+Each folder contains the raw or processed data required to reproduce the corresponding quantitative results shown in the manuscript.
+
+## APT dataset correspondence
+
+The principal cryo-APT datasets used in the manuscript are listed below.
+
+| Corresponding dataset | Original APT dataset |
+| --- | --- |
+| Fig. 1 | `R18_60357` |
+| Fig. 3 | `R18_63173` |
+| Fig. 4 | `R18_64108` |
+| Extended Data Fig. 1 | `R18_60355` |
+| Extended Data Fig. 3 | `R18_64543` |
+| Extended Data Fig. 4 | `R18_64538` |
+| Extended Data Fig. 8 | `R18_63174` |
+| Extended Data Fig. 15 | `R18_64128` |
+
+The dataset identifiers are retained in the deposited filenames to allow direct correspondence between the raw APT data, processed analyses, and the figures reported in the manuscript.
+
+## Notes
+
+APT data were processed using **AP Suite**. The deposited ranging (`.RRNG`) files record the ion assignments used for the corresponding datasets.
+
+The tabulated `.csv` files provide the numerical source data underlying the plots presented in the manuscript, including composition analyses, nearest-neighbour statistics, one-dimensional profiles, and proxigrams.
+
+For further information or questions regarding the source data, please contact the corresponding author, Eason Chen (eason.chen@ntu.edu.sg).

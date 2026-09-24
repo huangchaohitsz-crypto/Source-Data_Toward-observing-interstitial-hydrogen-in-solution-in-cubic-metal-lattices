@@ -16,6 +16,7 @@ For atom probe tomography (APT) datasets, the deposited files include, where app
 - **`.RHIT` files** – ranged hit data exported from AP Suite.
 - **`.RRNG` files** – corresponding ion-ranging definitions used for the APT analysis.
 - **`.csv` files** – numerical source data used to generate the corresponding plots and quantitative analyses in the manuscript. These files can also be opened directly in Microsoft Excel.
+- **`.opju` files** – Origin project files containing source data and plotting settings for selected figures.
 
 Depending on the analysis presented in each figure, the CSV source data include:
 
@@ -67,5 +68,7 @@ The dataset identifiers are retained in the deposited filenames to allow direct 
 APT data were processed using **AP Suite**. The deposited ranging (`.RRNG`) files record the ion assignments used for the corresponding datasets.
 
 The `.csv` files provide the numerical source data underlying the plots presented in the manuscript, including bulk-composition analyses, nearest-neighbour statistics, one-dimensional concentration profiles, and proxigrams.
+
+Selected figures were prepared using Origin, and the corresponding `.opju` project files are provided where applicable.
 
 For further information or questions regarding the source data, please contact the corresponding author, Eason Chen (eason.chen@ntu.edu.sg).

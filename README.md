@@ -1,8 +1,8 @@
-# Source Data – Toward observing interstitial hydrogen in solution in cubic metal lattices
+# Source Data – Toward observing interstitial hydrogen in solution in metal lattices
 
 This repository contains the source data associated with the manuscript:
 
-**“Toward observing interstitial hydrogen in solution in cubic metal lattices”**
+**“Toward observing interstitial hydrogen in solution in metal lattices”**
 
 The data are organized according to the corresponding figures in the main text, Extended Data, and Supplementary Information.
 
